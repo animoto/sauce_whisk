@@ -18,8 +18,8 @@ Gem::Specification.new do |gem|
 
   gem.license = 'MIT'
 
-  gem.add_runtime_dependency 'rest-client', '>= 1.8.0'
-  gem.add_runtime_dependency 'json', '~> 1.8.1'
+  gem.add_runtime_dependency 'rest-client', '~> 1.8.0'
+  gem.add_runtime_dependency 'json', '>= 1.8.1'
   gem.add_development_dependency 'vcr', '~> 2.9.0'
   gem.add_development_dependency 'webmock', '~> 1.21.0'
   gem.add_development_dependency 'rspec', '~> 3.3.0'
